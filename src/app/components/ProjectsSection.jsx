@@ -29,7 +29,7 @@ const projectsData = [
     description: "Ting Wei Fan's Portfolio ",
     image: "/images/projects/project-card-portfolio.jpg",
     tag: ["All", "Front End"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/tfan2437/nextjs-portfolio-wei",
     previewUrl: "/",
   },
   {
