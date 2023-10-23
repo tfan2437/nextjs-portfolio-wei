@@ -49,7 +49,8 @@ const HeroSection = () => {
               Contact Me
             </Link>
             <Link
-              href="/#about"
+              href="https://drive.google.com/file/d/1sw9CAdrUjnAvhbNy6e6afCxClq3Aqyi2/view?usp=share_link
+              "
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-[#EB0043] to-[#3342ED] text-white mt-3"
             >
               <span className="font-found-bold block bg-[#000000] hover:bg-[#3342ED] hover:text-[#000000] rounded-full px-5 py-2">
