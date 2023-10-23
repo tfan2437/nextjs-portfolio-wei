@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@font-face {
+  font-family: "helvetica-thin";
+  src: url("../../fonts/Helvetica-Neue-LT-Std/Helvetica-Neue-LT-Std-43-Light-Extended.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica-normal";
+  src: url("../../fonts/Helvetica-Neue-LT-Std/Helvetica-Neue-LT-Std-55-Roman.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica-bold";
+  src: url("../../fonts/Helvetica-Neue-LT-Std/Helvetica-Neue-LT-Std-73-Bold-Extended.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica-heavy";
+  src: url("../../fonts/Helvetica-Neue-LT-Std/Helvetica-Neue-LT-Std-93-Black-Extended.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "foundation-thin";
+  src: url("../../fonts/FoundationSans/FoundationSans-LightEx.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "foundation-normal";
+  src: url("../../fonts/FoundationSans/FoundationSans-Extended.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "foundation-bold";
+  src: url("../../fonts/FoundationSans/FoundationSans-BoldEx.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "foundation-heavy";
+  src: url("../../fonts/FoundationSans/FoundationSans-BlackEx.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.font-thin {
+  font-family: "helvetica-thin", sans-serif;
+}
+
+.font-normal {
+  font-family: "helvetica-normal", sans-serif;
+}
+
+.font-bold {
+  font-family: "helvetica-bold", sans-serif;
+}
+
+.font-heavy {
+  font-family: "helvetica-heavy", sans-serif;
+}
+
+.font-found-thin {
+  font-family: "foundation-thin", sans-serif;
+}
+
+.font-found-normal {
+  font-family: "foundation-normal", sans-serif;
+}
+
+.font-found-bold {
+  font-family: "foundation-bold", sans-serif;
+}
+
+.font-found-heavy {
+  font-family: "foundation-heavy", sans-serif;
+}
